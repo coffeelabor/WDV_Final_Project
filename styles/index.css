@@ -243,3 +243,10 @@ h1.textBlock{
     flex-direction: column;
 
 }
+
+/* Contact page */
+.contactMain{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
