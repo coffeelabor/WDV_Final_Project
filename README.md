@@ -77,3 +77,5 @@ Our classes are tailored to your needs. We provide instruction in basic surfing 
 
 
 ############################################################
+
+<span>Photo by <a href="https://unsplash.com/@truefriend865?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Peter Gonzalez</a> on <a href="https://unsplash.com/s/photos/surfing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

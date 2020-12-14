@@ -103,10 +103,6 @@ img {
     --background: #d9d9d9;
 }
 
-body{
-    /* background-color: var(--background); */
-}
-
 a{
     text-decoration: none;
 }
@@ -125,6 +121,11 @@ footer{
     width: 100%;
     margin: 0 auto;
 }
+.contentContainer {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .navContainer{
     display: flex;
@@ -138,16 +139,26 @@ footer{
     margin-right: 20%;
 }
 
-.contentContainer {
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-}
 
 .topSection{
     height: 300px;
+    
+}
+.topContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.topLeftContent{
+    text-align: center;
+}
+.topRightImg{
+    width: 48%;
+}
 .middleSection{
     height: 300px;
     background-color: var(--primary);
