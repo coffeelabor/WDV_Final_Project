@@ -211,4 +211,29 @@ h1.aboutBlock{
 }
 
 /* Lessons */
+.yellowSection{
+    background-color: var(--alternate);
+    color: var(--primary);
+    height: 100px;
+}
 
+
+.lessonsTitle{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lessonsContent{
+    display: flex;
+}
+
+.lessonsImg{
+    width: 50%;
+}
+
+.lessonsBottomText{
+    padding: 20px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
