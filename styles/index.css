@@ -85,7 +85,6 @@ h3 {
 p {
   line-height: 1.5;
   font-size: 1.6rem;
-  padding-bottom: 10px;
 }
 
 img {
@@ -117,6 +116,7 @@ footer{
     border-top: 1px solid var(--primary);
 }
 
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -131,6 +131,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .headerTitle {
@@ -173,3 +174,38 @@ footer{
     color: var(--secondary)
 }
 
+/* About page */
+.aboutContainer{
+    background-color: var(--background);
+
+}
+
+.aboutMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.aboutText {
+    align-self: center;
+}
+
+.aboutBlock{
+    margin-right: 5%;
+    margin-bottom: 5px;
+    padding: 20px 50px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+h1.aboutBlock{
+    color: var(--secondary);
+}
+
+.aboutImg {
+    width: 50%;
+
+}
