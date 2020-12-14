@@ -61,11 +61,11 @@ html {
 
 html, body {
   
-  font-family: "Merriweather", serif;
+  font-family: 'Courier New', monospace;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Merriweather", serif;
+  font-family: 'Courier New', monospace;
 }
 
 h1 {
