@@ -173,12 +173,23 @@ footer{
     font-family: 'Faster One', cursive;
     color: var(--secondary)
 }
+/* pages common */
 
-/* About page */
-.aboutContainer{
+.pageContainer{
     background-color: var(--background);
 
 }
+.textBlock{
+    margin-right: 5%;
+    margin-bottom: 5px;
+    padding: 20px 50px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+/* About page */
 
 .aboutMain{
     width: 100%;
@@ -191,17 +202,8 @@ footer{
     align-self: center;
 }
 
-.aboutBlock{
-    margin-right: 5%;
-    margin-bottom: 5px;
-    padding: 20px 50px;
-    border: 1px solid var(--primary);
-    border-radius: 10px;
-    background-color: white;
 
-}
-
-h1.aboutBlock{
+h1.textBlock{
     color: var(--secondary);
 }
 
@@ -216,7 +218,11 @@ h1.aboutBlock{
     color: var(--primary);
     height: 100px;
 }
-
+.lessonsMain{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .lessonsTitle{
     text-align: center;
